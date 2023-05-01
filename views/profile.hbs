@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{> header }}
+  <body>
+    {{> navbar }}
+
+    <div class="container-fluids">
+      
+      <h2>User Profile</h2>
+       <p class="{{msg_type}}">{{msg}}</p>
+     
+      <img src="/img/user-307993_960_720.png" />
+     
+      <h3>Name :  {{#if names}} {{names}}  {{/if}}</h3>
+       <h3>  Email : {{#if names}} {{email}}  {{/if}}</h3>
+     
+     
+    </div>
+  </body>
+</html>
